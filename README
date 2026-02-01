@@ -1,0 +1,14 @@
+student_name = input("ENTER YOUR NAME: ")
+student_age = int(input("ENTER YOUR AGE: "))
+marks_in_python = float(input("ENTER YOUR MARKS: "))
+networking_input = input("DO YOU KNOW BASIC NETWORKING?: (yes/no)")
+networking = networking_input.lower() == "yes"
+study_hours = int(input("ENTER YOUR STUDY HOURS: "))
+
+print("------------------------")
+print("HELLO ", student_name)
+print("CHECKING YOUR ELIGIBILITY FOR CYBERSECURITY BOOTCAMP........")
+
+if student_age >= 18 and marks_in_python >= 60 and networking and study_hours >= 10:
+    print("YOU ARE ELIGIBLE FOR CYBERSECUIRTY BOOTCAMP")
+    
