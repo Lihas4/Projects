@@ -11,4 +11,13 @@ print("CHECKING YOUR ELIGIBILITY FOR CYBERSECURITY BOOTCAMP........")
 
 if student_age >= 18 and marks_in_python >= 60 and networking and study_hours >= 10:
     print("YOU ARE ELIGIBLE FOR CYBERSECUIRTY BOOTCAMP")
-    
+else:
+    print("YOU ARE NOT ELIGIBLE FOR CYBERSECURITY BOOTCAMP, Because:")
+    if student_age < 18:
+        print("YOU MUST BE 18 YEARS OLD")
+    if marks_in_python < 60:
+        print("YOUR MARKS SHOULD BE 60 OR HIGHER")
+    if not networking:
+        print("YOU SHOULD HAVE KNOWLEDGE OF NETWORKING")
+    if study_hours < 10:
+        print("YOUR STUDY HOURS SHOULD BE EITHER 10 HORS IN A WEEK OR EXCEED")
